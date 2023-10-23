@@ -1,0 +1,546 @@
+/*Base*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: aqua; 
+    border-radius: 10px;
+  }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./img/bg.png) ;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-position: center;
+    background-color: #000;
+    user-select: none;
+}
+.bg2{
+    width: 100%;
+    position: absolute;
+    top: 110vh;
+    display: flex;
+    justify-content: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    user-select: none;
+    background-color: #000;
+}
+.logo{
+    font-size: 2em;
+    color: #fff;
+}
+.logo i{
+    font-size: 0.5em;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation .common::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+.navigation .popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    padding: 13px 41px 13px 42px;
+}
+.navigation .popup:hover{
+    background: #fff;
+    color: #000;
+}
+/*Home*/
+.Sign{
+    position: absolute;
+    top: 120vh;
+    color: #fff;
+    font-size: 6em;
+}
+.pm{
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    top: 150vh;
+    background-color: #fff;
+    border-radius: 12px;
+    border: #fff 2px solid;
+    overflow: hidden;
+}
+.pm img{
+    width: 100%;
+}
+/*About*/
+.bg{
+    width: 60%;
+    height: 210vh;
+    backdrop-filter: blur(10px) ;
+    position: absolute;
+    top: 90px;
+    border:2px solid #000 ;
+    display: flex;
+    justify-content: center;
+}
+.bg h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 500%;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bg hr{
+    position: absolute;
+    top: 90px;
+    height: 5px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.bg .sz{
+    width: 90%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+.bg .sz p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    
+}
+.kep{
+    background-color: #000;
+    border-radius: 110px;
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden ;
+    position: absolute;
+    left: 2.5vh;
+    top: .5vh;
+}
+.sz_us{
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 16vh;
+}
+.sz_us h3{
+    font-size: 2em;
+}
+.kep img{
+    width: 25vh;
+}
+.kep p{
+    color: #fff;
+    font-weight: 500;
+    font-size: .5em;
+    
+}
+.sz_us{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.norbi{
+    width: 20vh;
+    height: 30vh;
+    position: absolute;
+    left: 15vh;
+    top: 100vh;
+    text-align: center;
+}
+.Tibi{
+    width: 20vh;
+    height: 30vh;
+    position: absolute;
+    right: 15vh;
+    top: 100vh;
+    text-align: center;
+}
+.Mark{
+    width: 20vh;
+    height: 30vh;
+    position: absolute;
+    left: 15vh;
+    top: 140vh;
+    text-align: center;
+}
+.Marci{
+    width: 20vh;
+    height: 30vh;
+    position: absolute;
+    right: 15vh;
+    top: 140vh;
+    text-align: center;
+}
+/*Services*/
+.bg_sv{
+    width: 60%;
+    height: 100vh;
+    backdrop-filter: blur(10px) ;
+    position: absolute;
+    top: 90px;
+    border:2px solid #000;
+    display: flex;
+    justify-content: center;
+}
+.bg_sv h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 500%;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bg_sv hr{
+    position: absolute;
+    top: 90px;
+    height: 5px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.box_var{
+    width: 100%;
+    text-align: center;
+}
+.var{
+    padding: 20px;
+    border: 2px solid;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+.var:hover{
+    color: aqua;
+    background-color: #000;
+}
+.var::after{
+    content: '';
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+.var span{
+    transition: .2s margin;
+}
+.var:hover span{
+    margin-left: 10px;
+}
+.sv_bx{
+    width: 90%;
+    height: 350px;
+    margin-top: 10%;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 60px;
+    background-color: #000;
+}
+.sv_bx h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.sv_bx2{
+    width: 90%;
+    height: 350px;
+    position: fixed;
+    top: 50vh;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 60px;
+    background-color: #000;
+}
+.sv_bx2 h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.box{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+/*Contact*/
+.bg_co{
+    width: 60%;
+    height: 100vh;
+    backdrop-filter: blur(10px) ;
+    position: absolute;
+    top: 90px;
+    border:2px solid #000;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.email{
+    position: fixed;
+    top: 10%;
+    text-align: center;
+}
+.email h2{
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.name{
+    width: 50vh;
+    height: max-content;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    display: flex;
+    justify-content: start;
+}
+.mail{
+    width: 50vh;
+    height: max-content;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    display: flex;
+    justify-content: start;
+}
+.comment{
+    width: 50vh;
+    height: max-content;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    resize: none;
+}
+.send{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    background: transparent;
+}
+.send:hover{
+    color: aqua;
+    background-color: #000;
+}
+/*Login
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px) ;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(1);
+    transition: .2s ease;
+}
+.wrapper.active{
+    height: 520px;
+    
+}
+.wrapper .from-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper .from-box.Login{
+    transition: .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active .from-box.Login{
+    transition: none;
+    transform: translateX(-400px);
+}
+.wrapper .from-box.Register{
+    position: absolute;
+    transition:none ;
+    transform: translateX(400px);
+}
+.wrapper.active .from-box.Register{
+    transition: .18s ease;
+    transform: translateX(0);
+}
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+.from-box h2{
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+    
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid;
+    margin:30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: .9em;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #000;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.login-register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 6px;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+*/
