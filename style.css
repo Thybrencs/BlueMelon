@@ -527,15 +527,15 @@ header{
         height: 101vh;
     }
     .mail{
-        width: 60%;
+        width: 80%;
         position: relative;
-        left: 20%;
+        left: 10%;
     }
     .comment{
-        width: 60%;
+        width: 80%;
     }
     .send{
-        width: 60%;
+        width: 80%;
         padding: 5px;
     }
   }
