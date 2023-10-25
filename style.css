@@ -295,7 +295,7 @@ header{
     margin-top: 15vh;
     color: #fff;
     border: 2px solid;
-    border-radius: 60px;
+    border-radius: 30px;
     background-color: #000;
     overflow: hidden;
 }
@@ -313,7 +313,7 @@ header{
     margin-top: 55vh;
     color: #fff;
     border: 2px solid;
-    border-radius: 60px;
+    border-radius: 30px;
     background-color: #000;
     overflow: hidden;
 }
@@ -375,8 +375,8 @@ header{
 }
 .comment{
     width: 50vh;
-    height: max-content;
-    border-radius: 6px;
+    height: 60vh;
+    font-size: 2em;
     border: 1px solid #fff;
     color: #fff;
     background: transparent;
@@ -433,7 +433,8 @@ header{
     }
     /*About*/
     .bg{
-        height: calc(93vh + 600px);
+        top: 0;
+        height: calc(101vh + 600px);
     }
     .bg hr{
         height: fit-content;
@@ -488,7 +489,8 @@ header{
     }
     /*services*/
     .bg_sv{
-        height: 89vh;
+        top: 0;
+        height: 101vh;
     }
     .bg_sv h1{
         top: 40px;
@@ -517,7 +519,7 @@ header{
         padding-top: 2vh;
     }
     .sv_bx2{
-        margin-top: 50vh;
+        margin-top: 54vh;
     }
     .sv_bx2 h2{
         padding-top: 2vh;
@@ -531,7 +533,8 @@ header{
     }
     /*Contact*/
     .bg_co{
-        height: 89vh;
+        top: 0;
+        height: 101vh;
     }
     .comment{
         width: 90%;
