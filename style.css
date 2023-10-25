@@ -432,7 +432,7 @@ header{
     }
     /*About*/
     .bg{
-        height: 144vh;
+        height: calc(90vh + 600px);
     }
     .bg hr{
         height: fit-content;
