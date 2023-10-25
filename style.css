@@ -290,7 +290,7 @@ header{
 }
 .sv_bx{
     width: 90%;
-    height: 35%;
+    height: 35.5%;
     position: absolute;
     margin-top: 15vh;
     color: #fff;
@@ -308,7 +308,7 @@ header{
 }
 .sv_bx2{
     width: 90%;
-    height: 35%;
+    height: 35.5%;
     position: absolute;
     margin-top: 55vh;
     color: #fff;
@@ -500,7 +500,7 @@ header{
     .box_var{
         width: 100%;
         text-align: center;
-        margin-top: 20%;
+        margin-top: 16%;
     }
     .var{
         padding: 10px;
@@ -511,16 +511,16 @@ header{
     }
     .sv_bx{
         margin-top: 15vh;
+        height: 37%;
+    }
+    .sv_bx h2{
+        padding-top: 2vh;
     }
     .sv_bx2{
         margin-top: 50vh;
     }
     .sv_bx2 h2{
-        text-align: center;
-        font-size: 3em;
-        font-weight: 500;
-        margin-top: 1%;
-        margin-bottom: 2%;
+        padding-top: 2vh;
     }
     .box{
         position: absolute;
