@@ -114,7 +114,6 @@ header{
 }
 .pm{
     width: 20%;
-    
     position: absolute;
     top: 150vh;
     background-color: #fff;
@@ -263,7 +262,7 @@ header{
 }
 .box_var{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
 }
 .var{
@@ -415,6 +414,10 @@ header{
     .navigation a{
         margin-left: 8px;
     }
+    .navigation .common::after{
+        bottom: -5px;
+        height: 1px;
+    }
     .navigation .popup{
         margin-left: 12px;
         padding: 7px 21px 7px 21px;
@@ -422,13 +425,14 @@ header{
     /*Home*/
     .pm{
         top: 115vh;
+        width: 20vh;
     }
     .Sign{
         top: 105vh;
     }
     /*About*/
     .bg{
-        height: 125vh;
+        height: 144vh;
     }
     .bg hr{
         height: fit-content;
@@ -442,7 +446,7 @@ header{
         height: 15vh;
         position: absolute;
         left: 2vh;
-        top: 65vh;
+        top: 85vh;
         text-align: center;
     }
     .Tibi{
@@ -450,7 +454,7 @@ header{
         height: 15vh;
         position: absolute;
         right: 2vh;
-        top: 65vh;
+        top: 85vh;
         text-align: center;
     }
     .Mark{
@@ -458,7 +462,7 @@ header{
         height: 15vh;
         position: absolute;
         left: 2vh;
-        top: 80vh;
+        top: 100vh;
         text-align: center;
     }
     .Marci{
@@ -466,7 +470,7 @@ header{
         height: 15vh;
         position: absolute;
         right: 2vh;
-        top: 80vh;
+        top: 100vh;
         text-align: center;
     }
     .sz_us{
