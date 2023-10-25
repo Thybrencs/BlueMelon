@@ -536,5 +536,6 @@ header{
     }
     .send{
         width: 60%;
+        padding: 5px;
     }
   }
