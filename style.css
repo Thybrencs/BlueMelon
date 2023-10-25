@@ -353,16 +353,6 @@ header{
     font-weight: 500;
     margin-bottom: 5%;
 }
-.name{
-    width: 50vh;
-    height: max-content;
-    border-radius: 6px;
-    border: 1px solid #fff;
-    color: #fff;
-    background: transparent;
-    display: flex;
-    justify-content: start;
-}
 .mail{
     width: 50vh;
     height: max-content;
@@ -371,7 +361,7 @@ header{
     color: #fff;
     background: transparent;
     display: flex;
-    justify-content: start;
+    left: 25vh;
 }
 .comment{
     width: 50vh;
@@ -536,10 +526,15 @@ header{
         top: 0;
         height: 101vh;
     }
+    .mail{
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
     .comment{
-        width: 90%;
+        width: 60%;
     }
     .send{
-        width: 90%;
+        width: 60%;
     }
   }
