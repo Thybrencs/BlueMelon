@@ -426,6 +426,9 @@ header{
         height: fit-content;
         width: 200px;
     }
+    .cbox{
+        top: 450px;
+    }
     .cbox h2{
         font-size: 500%;
     }
