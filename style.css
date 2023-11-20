@@ -313,7 +313,7 @@ header{
     text-decoration: underline 2px;
     user-select: all;
 }
-@media (min-width: 3px) and (max-width: 1000px) {
+@media (min-width: 3px) and (max-width: 1200px) {
     body{
         font-size: 0.5em;
         background-position: center;
