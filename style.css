@@ -142,7 +142,7 @@ header{
 .pm{
     width: 15%;
     position: absolute;
-    top: 50vh;
+    top: 30vh;
     background-color: #fff;
     border-radius: 12px;
     border: #fff 2px solid;
@@ -428,6 +428,6 @@ header{
         font-size: 500%;
     }
     .cbox h3{
-        font-size: 500%;
+        font-size: 300%;
     }
   }
