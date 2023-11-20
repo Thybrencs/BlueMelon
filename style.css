@@ -419,9 +419,10 @@ header{
         top: 80vh;
     }
     #contact h1{
-        top: 400px;
+        top: 300px;
     }
     #contact hr{
+        top: 400px;
         height: fit-content;
         width: 200px;
     }
